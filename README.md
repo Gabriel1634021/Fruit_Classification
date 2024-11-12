@@ -9,3 +9,7 @@ El conjunt de dades utilitzat en aquest projecte consta de dues categories: frui
 Les tècniques utilitzades inclouen:
 - **Preprocessament d'imatges** per augmentar les dades i millorar la capacitat de generalització del model.
 - **Xarxes Neuronals Convolucionals (CNN)** per a la classificació d'imatges.
+
+## Integrants
+- Luis Adrián Gómez
+- Gabriel Marcos Martínez
