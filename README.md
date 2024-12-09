@@ -8,10 +8,6 @@ El conjunt de dades utilitzat en aquest projecte consta de dues categories: frui
 
 [Conjunt de dades](https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification/data)
 
-Les tècniques utilitzades inclouen:
-- **Preprocessament d'imatges** per augmentar les dades i millorar la capacitat de generalització del model.
-- **Xarxes Neuronals Convolucionals (CNN)** per a la classificació d'imatges.
-
 ## Experiments i Metodologia
 
 Durant el desenvolupament d'aquest projecte, hem experimentat amb diverses estratègies i models per millorar la precisió de classificació:
@@ -20,9 +16,11 @@ Durant el desenvolupament d'aquest projecte, hem experimentat amb diverses estra
    - HOG (Histogram of Oriented Gradients).
    - Histograma d'intensitats.
    - LBP (Local Binary Patterns).
+   - Hu Moments.
+   - GLCM (Gray Level Co-occurrence Matrix).
 
 2. **Classificadors tradicionals**:
-   - **SVM**: Provant kernels com el lineal, polinòmic i RBF.
+   - **SVM**: Provant kernels com el lineal, polinòmic i RBF , i utilitzant estratègies **OVO (One-Versus-One)** i **OVA (One-Versus-All).
    - **KNN**: Realitzant un **Grid Search** per trobar els millors paràmetres.
 
 3. **Models preentrenats**:
