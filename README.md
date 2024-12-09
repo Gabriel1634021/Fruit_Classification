@@ -6,11 +6,28 @@ Aquest projecte utilitza models de visió per computador per classificar fruites
 
 El conjunt de dades utilitzat en aquest projecte consta de dues categories: fruites fresques i fruites podrides. Es farà servir un model de classificació per identificar en què estat es troba cada fruit.
 
-link: https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification/data
+[Conjunt de dades](https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification/data)
 
 Les tècniques utilitzades inclouen:
 - **Preprocessament d'imatges** per augmentar les dades i millorar la capacitat de generalització del model.
 - **Xarxes Neuronals Convolucionals (CNN)** per a la classificació d'imatges.
+
+## Experiments i Metodologia
+
+Durant el desenvolupament d'aquest projecte, hem experimentat amb diverses estratègies i models per millorar la precisió de classificació:
+
+1. **Extracció de característiques**:
+   - HOG (Histogram of Oriented Gradients).
+   - Histograma d'intensitats.
+   - LBP (Local Binary Patterns).
+
+2. **Classificadors tradicionals**:
+   - **SVM**: Provant kernels com el lineal, polinòmic i RBF.
+   - **KNN**: Realitzant un **Grid Search** per trobar els millors paràmetres.
+
+3. **Models preentrenats**:
+   - **EfficientNet**: Provant les variants B0 i B2.
+   - **VGG16**: Per comparar el rendiment amb arquitectures més complexes.
 
 ## Integrants
 - Luis Adrián Gómez
