@@ -20,7 +20,7 @@ Durant el desenvolupament d'aquest projecte, hem experimentat amb diverses estra
    - GLCM (Gray Level Co-occurrence Matrix).
 
 2. **Classificadors tradicionals**:
-   - **SVM**: Provant kernels com el lineal, polinòmic i RBF , i utilitzant estratègies **OVO (One-Versus-One)** i **OVA (One-Versus-All).
+   - **SVM**: Provant kernels com el lineal, polinòmic i RBF , i utilitzant estratègies OVO (One-Versus-One) i OVA (One-Versus-All).
    - **KNN**: Realitzant un **Grid Search** per trobar els millors paràmetres.
 
 3. **Models preentrenats**:
