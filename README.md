@@ -7,6 +7,7 @@ Aquest projecte utilitza models de visió per computador per classificar fruites
 El conjunt de dades utilitzat en aquest projecte consta de dues categories: fruites fresques i fruites podrides. Es farà servir un model de classificació per identificar en què estat es troba cada fruit.
 
 [Conjunt de dades](https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification/data)
+[Repositori GitHub]([https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification/data](https://github.com/Gabriel1634021/Fruit_Classification))
 
 ## Experiments i Metodologia
 
